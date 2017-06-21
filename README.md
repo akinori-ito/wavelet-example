@@ -1,7 +1,7 @@
-#音信号のためのWavelet変換の実装例と各種ツール
+# 音信号のためのWavelet変換の実装例と各種ツール
 2007.7.24 伊藤 彰則
 
-##1. インストール
+## 1. インストール
 
 インストールにはgccとmakeが必要．gccがない場合には，Makefile の CC=gcc
 の部分を変更する．Windowsの場合は cygwin を使えば簡単．
@@ -10,7 +10,7 @@ make
 
 で各種ツールがコンパイルできる．
 
-##2. ツールの説明
+## 2. ツールの説明
 
 * calc-error file1.wav file2.wav
 
@@ -30,7 +30,7 @@ make
   infile.wav の信号をWaveletにより分解・再合成して outfile.wav に出力する．プログラム
   が正しければ，outfile.wav の内容は infile.wav とほぼ同じになる．
 
-##3. ライセンス
+## 3. ライセンス
 
 伊藤彰則が著作権を保持する．
 (C) Copyright 2007 by Akinori Ito, aito@fw.ipsj.or.jp
