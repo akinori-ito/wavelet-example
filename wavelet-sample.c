@@ -39,6 +39,7 @@ void process(SoundData *s)
   fprintf(stderr,"Maximum difference: %g\n",max);
 
   free(org);
+  free(dst);
   free(coef);
 }
  
