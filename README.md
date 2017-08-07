@@ -25,6 +25,10 @@ make
 
   infile1.wav と infile2.wav のサンプルごとの差を計算し，outfile.wav に出力する．
 
+* wavlength file.wav
+
+  file.wav の長さを秒で表示する．
+
 * wavelet-sample infile.wav outfile.wav
 
   infile.wav の信号をWaveletにより分解・再合成して outfile.wav に出力する．プログラム
